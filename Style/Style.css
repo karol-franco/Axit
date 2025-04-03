@@ -273,8 +273,13 @@ span{
 .precio2{
     width: 28%;
     margin: 0% 20px;
-    height: 562px;
+    height: 540px;
     background-color: white;
+
+}
+.ceroo h2{
+    font-weight: 600;
+    font-size: 80px;
 
 }
 .con-grande-precios{
@@ -294,19 +299,21 @@ span{
 
 }
 .n-grande{
-    font-size: 1.5em;
+    font-size: 90px;
+    font-weight: 600;
     color: white;
     vertical-align: top;
 }
 .siete{
     color: white;
-    font-size: 1.4em;
+    font-size: 90px;
     vertical-align: top;
-    font-weight: 700;
+    font-weight: 600;
 }
 .cero h2{
     vertical-align: top;
-    font-weight: 750;
+    font-weight: 600;
+    font-size: 80px;
 }
 .parte8{
     text-align: center;
