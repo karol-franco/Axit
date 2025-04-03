@@ -266,7 +266,6 @@ span{
 }
 .precio1{
     width: 28% ;
-    height: 500px;
     background-color: white;
     
 
@@ -274,6 +273,7 @@ span{
 .precio2{
     width: 28%;
     margin: 0% 20px;
+    height: 562px;
     background-color: white;
 
 }
