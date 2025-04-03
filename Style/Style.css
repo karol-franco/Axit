@@ -281,8 +281,9 @@ span{
     box-sizing: border-box;
     padding: 20px 90px;
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
     justify-content: center;
+
 }
 .raya-precio{
     background-color: #ffa650;
