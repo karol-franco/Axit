@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+nav{
+    display: flex;
+    margin-right: 40px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    margin-left: 5px;
+    list-style: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.conten-logo{
+    padding: 20px;
+    margin-left: 50px;
+}
+.logo1{
+    width: 100px;
+}
+.parte1{
+    background-image: url(/Asset/images/headerBg.png);
+    background-size: 100%;
+    background-position: -140% 35%;
+    padding: 100px 50px 90px 50px;
+    
+}
+.parte1{
+    display: flex;
+    justify-content: space-between;
+}
+.contenido1{
+    width: 45%;
+    color: white;
+    padding-left: 100px;
+}
+.formulario1{
+    width: 35%;
+
+
+}
+.conten-form{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    height: 250px;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 20px;
+    margin-top: 20px;
+}
+span{
+    color:#ffffff;
+}
+.free{
+    color: #ffa650;
+}
+.boton2{
+    width: 89%;
+    padding: 20px;
+    background-color: #ffa650;
+    color: white;
+    border: none;
+}
+.titulo1{
+    font-size: 2.3em;
+}
+.p1{
+    font-size: 0.9em;
+    color:#ffffffcb;
+}
+.boton1{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    width: 25vh;
+}
+.parte2{
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-around;
+}
+.contenido2{
+    width: 40%;
+    font-size: 0.8em;
+}
+.redes{
+    width: 480px;
+}
+.p2{
+    color: gray;
+}
+.parte3{
+    display: flex;
+    justify-content: space-around;
+    padding:30px ;
+    box-sizing: border-box;
+    background-color: rgb(250, 248, 248);
+}
+.cajas{
+    width: 20%;
+    padding: 20px;
+}
+.contenido3{
+    width: 50% ;
+    padding: 50px;
+    color: gray;
+}
+.con-caja{
+    width: 30%;
+    color: white;
+    padding: 50px;
+    background-color: black;
+    margin-top: 2px;
+}
+.con-caja_1{
+    width: 30%;
+    color: white;
+    padding: 50px;
+    background-color: rgb(233, 115, 18);
+    margin-top: 2px;
+}
+.boton3{
+    padding: 15px;
+    color: white;
+    background-color: #ffa650;
+    border: none;
+    border: 2px solid white;
+    width: 25vh;
+}
+.lista{
+    background-image: url(/Asset/images/icon1.png);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.parte4{
+    display: flex;
+}
+.cont-imagen2{
+    padding: 100px;
+}
+.cont-parrafo2{
+    padding: 20px 80px;
+}
+.parte-lista{
+    display: flex;
+    margin-bottom: 10px;
+}
+.content-icono{
+    padding: 15px;
+}
+.content-lista{
+    padding: 15px;
+}
+.parte4 p{
+    color: gray;
+}
+.raya-lista{
+    width: 8%;
+    height: 2px;
+    background-color: #ffa650;
+    margin: 20px 0px;
+}
+.parte5{
+    display: flex;
+    background-color: rgb(250, 248, 248);  
+    color: gray;
+}
+.servicios{
+    display: flex;
+    padding: 70px;
+}
+.servicio{
+    justify-items: center;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+.servicio p{
+    color: gray;
+}
+.parte6{
+    text-align: center;
+    justify-items: center;
+    margin: 50px 0px;
+}
+.parte6 p{
+    color: gray ;
+}
+.parte7{
+    text-align: center;
+    justify-items: center;
+    margin: 50px 0px 0px 0;
+    background-color: rgb(209, 209, 209) ;
+    padding-top:30px;
+}
+.parte7 p{
+    color: gray ;
+}
+.con-precio{
+    background-color: black;
+    color: white;
+
+}
+.Basic{
+    border-bottom: 1px solid white;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+.professional{
+    border-bottom: 1px solid white;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+.cero{
+    border-bottom: 5px solid #ffa650;
+    background-color: #333333;
+    color: white;
+    padding: 30px;
+}
+.listas li{
+    border-bottom: 1px solid rgb(202, 200, 200);
+    list-style: none;
+    padding: 10px;
+}
+.ceroo{
+    background-color: #333333;
+    color: white;
+    padding: 30px;
+}
+.ceroo h2{
+    font-size: 70px;
+}
+.cero h2{
+    font-size: 70px;
+}
+.signo{
+    font-size: 0.5em;
+}
+.precio1{
+    width: 28% ;
+    background-color: white;
+    
+
+}
+.precio2{
+    width: 28%;
+    margin: 0% 20px;
+    background-color: white;
+
+}
+.con-grande-precios{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 90px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+}
+.raya-precio{
+    background-color: #ffa650;
+    color: white;
+    padding: 16px;
+    font-size: 0.8em;
+
+}
+.n-grande{
+    font-size: 1.5em;
+    color: white;
+    vertical-align: top;
+}
+.siete{
+    color: white;
+    font-size: 1.4em;
+    vertical-align: top;
+    font-weight: 700;
+}
+.cero h2{
+    vertical-align: top;
+    font-weight: 750;
+}
+.parte8{
+    text-align: center;
+    justify-items: center;      
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+.con-mensajes{
+    width: 30%;
+}
+.msj{
+    width: 80%;
+    font-size: 0.8em;
+    background-image:url(../Asset/images/textBubble.png);
+    background-repeat: no-repeat;
+    height: 140px;
+    margin-bottom: 15px;
+}
+.foto img{
+    border-radius: 70px;
+    width: 70px;
+}
+.foto{
+    margin-right: 15px;
+}
+.con-persona{
+    display: flex;
+    text-align: left;
+}
+.con-texto{
+    width: 50%;
+    font-size: 1em;
+    text-align: rigth;
+}
+.nose{
+    width: 95%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.separacion-msj{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    margin-left: 80px;
+}
+.parte9{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.2), rgba(0,0,0,0.5)
+    ),  url(../Asset/images/bg2.png);
+    color: white;
+    padding: 50px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.raya-blanca{
+    width: 8%;
+    background-color: white;
+    height: 2px;
+}
+.div-parte9{
+    justify-items: center;
+    display: grid;
+}
+.div-parte9 h2{
+    font-size: 2em;
+}
+.parte10{
+    background-color: white;
+    justify-items: center;
+    padding-top: 90px;
+}
+.parte10 h2{
+    font-size: 2em;
+
+}
+.contacto{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 20px;
+    margin-right: 100px;
+
+}
+.con-grande-contacto{
+    display: flex;
+    vertical-align: bottom;
+    padding-bottom: 40px;
+    justify-content: flex-end;
+}
+.Message{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 143px;
+}
+.con-Mensajess{
+    vertical-align: bottom;
+    width: 70%;
+}
+.okey{
+    vertical-align: bottom;
+}
+footer{
+    margin-top: 2em;
+    background-color: black;
+    color: #414141;
+    justify-items: center;
+    padding: 20px 0 ;
+    font-size: 0.8em;
+}
+/*Medias Querie*/
+@media (max-width:1279px){
+    .formulario1{
+        width: auto;
+    }
+    .boton2{
+        width: 91%;
+    }
+    .parte1{
+        background-repeat: no-repeat;
+        background-position: 0%;
+        background-size: cover;
+    }
+    .contenido3{
+        padding: 25px;
+    }
+    .cont-imagen2{
+        padding: 20px;
+    }
+    .precio1{
+        width: auto;
+    }
+    .precio2{
+        width: auto;
+    }
+    .con-mensajes{
+        width: auto;
+    }
+    .Message{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .contacto{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 921px) {
+    .con-grande-precios {
+        flex-direction: column; 
+        align-items: center;
+        padding: 20px;
+    }
+
+    .precio1, .precio2 {
+        width: 80%; 
+        margin: 10px 0; 
+    }
+
+    .parte2, .parte3 {
+        flex-direction: column; 
+        align-items: center;
+        padding: 20px;
+    }
+
+    .contenido2, .redes, .cajas, .contenido3, .con-caja, .con-caja_1 {
+        width: 90%; 
+        text-align: center;
+    }
+
+    .parte5 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .servicio {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .parte10 {
+        padding-top: 50px;
+    }
+
+    .contacto, .Message {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .con-grande-contacto {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 600px;
+    }
+    .okey{
+        width: 430px;
+    }
+    .cont-imagen2 img{
+        width: 300px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .contenido1{
+        padding: 0;
+    }
+    .foto{
+        margin-top: 10px;
+    }
+    .separacion-msj{
+        padding: 40px 0;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    nav {
+        margin-right: 0;
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .parte1 {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .contenido1, .formulario1 {
+        width: 100%;
+        padding-left: 0;
+    }
+    .parte2, .parte3, .parte5, .parte6, .parte7 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    .cajas, .contenido3, .con-caja, .con-caja_1 {
+        width: 70%;
+    }
+    .parte4 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .cont-imagen2, .cont-parrafo2 {
+        padding: 20px;
+    }
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+    .servicio {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .con-grande-precios {
+        flex-direction: column;
+        align-items: center;
+    }
+    .precio1, .precio2 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .con-mensajes {
+        width: 90%;
+        text-align: center;
+    }
+    .separacion-msj {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 20px;
+    }
+    .con-persona {
+        flex-direction: column;
+        align-items: center;
+    }
+    .con-grande-contacto {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+    }
+    .contacto, .Message {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .parte8 h2 p{
+        width: 200px;
+    }
+    .nose{
+        width: 300px;
+    }
+    .nose p{
+        width: 200px;
+        
+    }
+    .parte9{
+        justify-items: center;
+    }
+    .titulo1{
+        font-size: 1.5em;
+    }
+    .boton1{
+        margin-bottom: 20px;
+    }
+    .boton2{
+        width: 89%;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .conten-logo {
+        margin-left: 0;
+    }
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+    .parte1 {
+        padding: 30px 10px;
+    }
+    .contenido1, .formulario1 {
+        width: 100%;
+    }
+    .boton1, .boton3 {
+        width: 90%;
+    }
+    .boton2{
+        width: 93%;
+    }
+    .parte2, .parte3, .parte5, .parte6, .parte7, .parte8, .parte9, .parte10 {
+        padding: 15px;
+    }
+    .con-caja, .con-caja_1 {
+        width: 100%;
+        padding: 30px;
+    }
+    .servicio {
+        width: 100%;
+    }
+    .precio1, .precio2 {
+        width: 100%;
+    }
+    .contacto, .Message {
+        width: 100%;
+    }
+    input{
+        width: 200px;
+    }
+    .cajas{
+        width: 60%;
+        margin-right: 65px;
+    }
+    .parte3{
+        align-items: center;
+    }
+    .cont-imagen2 img{
+        width: 200px;
+    }
+    .contacto{
+        width: 200px;
+    }
+    .con-grande-contacto{
+        width: auto;
+    }
+    .okey{
+        width: auto;
+    }
+    .Message{
+        width: 200px;
+        margin-right: 80px;
+    }
+    .boton3{
+        width: 200px;
+    }
+    .raya-lista{
+        width: 200px;
+        margin-left: 30px;
+    }
+
+}
+
+
