@@ -35,7 +35,7 @@ nav a{
     width: 100px;
 }
 .parte1{
-    background-image: url(/Asset/images/headerBg.png);
+    background-image: url(../Asset/images/headerBg.png);
     background-size: 100%;
     background-position: -140% 35%;
     padding: 100px 50px 90px 50px;
